@@ -1,0 +1,230 @@
+$color1: #369;
+$cardcolor: #CCC;
+$hovercolor: #FFDEAD;
+$width: 100%;
+$padding: 15px 25px;
+$padding2: 15px 30px;
+
+body{
+	background: $cardcolor;
+	font-family: 'Actor', sans-serif;
+}
+h1{
+	font-size: 40px;
+	color: $cardcolor;
+}
+h3{
+	color: #333;
+	padding-top: none;
+}
+li{
+	list-style: none;
+}
+.card{
+	background: $color1;
+	margin: 10px;
+	overflow: auto;
+} 
+
+/* HEADER */
+
+header{
+	background: #036;
+	width: $width;
+
+	h1{
+		padding: $padding;
+		margin:0
+	}
+}
+
+/* Columns */
+.right {
+	width: $width / 2;
+	float: right;
+	padding: 0;
+	margin: 0;
+}
+.left {
+	width: $width / 2;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+/* FIRST CARD */
+.id-card{
+	background: $color1;
+	margin: 10px;
+	overflow: auto;
+}
+.name{
+	font-size: 35px;
+	padding-left: 0;
+	padding-bottom: 0;
+}
+.mypic{
+	float: left;
+	height: 200px;
+	width:200px;
+	padding: 30px;
+	position: relative;
+	display: inline-block;
+}
+.contact-info{
+	i{
+	color: #D5A725;
+	padding-bottom: 15px;
+	}
+	a{
+		color: #D5A725;
+		&:hover{
+			color:$hovercolor;
+		}
+	}
+}
+.info {
+	padding-bottom: 0;
+
+	a{
+		font-size: 20px;
+		text-decoration: none;
+	}
+}
+
+/* SOCIAL MEDIA LINKS */
+
+.smlinks{
+	padding-left: 0;
+	padding-bottom: 20px;
+	margin: 0;
+	li{
+		display: inline;
+	}
+	i{
+		color: white;
+		font-size: 20px;
+		margin: 0 20px;
+
+		&:hover{
+			color:$hovercolor;
+		}
+	}
+	a{
+		text-decoration: none;
+		font-size: 20px;
+		border-radius: 5px;
+		padding: {
+			top: 1%;
+			left: 1%;
+			right: 1%;
+			width: 13%;
+			height: 40px;
+	}
+		&:hover{
+			border: 1px solid white;
+		}
+		&.facebook{
+			background-color: #23476A;
+			padding-right: 1%;
+		}
+		&.twitter{
+			background-color: #00ABF0;
+			padding-right: 1%;
+		}
+		&.google{
+			background-color: #A92A24;
+			padding-right: 1%;
+		}
+		&.linkedin{
+			background-color: black;
+		}
+	}
+}
+
+/*
+HOBBIES
+*/
+.hobbies{
+	list-style: none;
+	padding: 0;
+
+	h2{
+	font-size: 25px;
+	color: $cardcolor;	
+	}
+
+	li{
+		list-style: none;
+	}
+}
+.background, .hobby, .video{
+	background: $color1;
+	padding: $padding2;
+	border-bottom: 2px solid $cardcolor;
+}
+
+/*
+VIDEO
+*/
+video{
+	width:96%;
+	margin-left: 18px;
+}
+
+/*
+EDUCATION
+*/
+
+table{
+	border: 0;
+	width: $width;
+}
+.background label{
+	padding-right: 20px;
+}
+select{
+	width: $width / 2;
+}
+textarea{
+	font-size: 15px;
+	resize: none;
+	width: $width;
+}
+.button {
+	width:$width / 4;
+	background: white;
+	height: auto;
+	display: block;
+	text-align: center;
+	font-style: bold;
+	margin-left: 35%;
+}
+
+/*
+QUOTE
+*/
+.quote{
+	background: url(http://digitalizemoments.files.wordpress.com/2012/01/3-11.jpg);
+	padding: $padding2;
+	border-bottom: 2px solid $cardcolor;
+}
+blockquote{
+	font-size: 20px;
+	font-style: italic;
+	color: $cardcolor;
+	background: rgba(0,0,0, .5);
+}
+/*
+FOOTER
+*/
+footer{
+	background: #036;
+	width: $width;
+	clear: both;
+}
+footer p{
+	color: $cardcolor;
+	padding: 15px;
+	text-align: right;
+}

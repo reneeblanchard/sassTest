@@ -1,0 +1,269 @@
+/* line 8, ../sass/style.scss */
+body {
+  background: #cccccc;
+  font-family: 'Actor', sans-serif;
+}
+
+/* line 12, ../sass/style.scss */
+h1 {
+  font-size: 40px;
+  color: #cccccc;
+}
+
+/* line 16, ../sass/style.scss */
+h3 {
+  color: #333;
+  padding-top: none;
+}
+
+/* line 20, ../sass/style.scss */
+li {
+  list-style: none;
+}
+
+/* line 23, ../sass/style.scss */
+.card {
+  background: #336699;
+  margin: 10px;
+  overflow: auto;
+}
+
+/* HEADER */
+/* line 31, ../sass/style.scss */
+header {
+  background: #036;
+  width: 100%;
+}
+/* line 35, ../sass/style.scss */
+header h1 {
+  padding: 15px 25px;
+  margin: 0;
+}
+
+/* Columns */
+/* line 42, ../sass/style.scss */
+.right {
+  width: 50%;
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 48, ../sass/style.scss */
+.left {
+  width: 50%;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+/* FIRST CARD */
+/* line 56, ../sass/style.scss */
+.id-card {
+  background: #336699;
+  margin: 10px;
+  overflow: auto;
+}
+
+/* line 61, ../sass/style.scss */
+.name {
+  font-size: 35px;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+/* line 66, ../sass/style.scss */
+.mypic {
+  float: left;
+  height: 200px;
+  width: 200px;
+  padding: 30px;
+  position: relative;
+  display: inline-block;
+}
+
+/* line 75, ../sass/style.scss */
+.contact-info i {
+  color: #D5A725;
+  padding-bottom: 15px;
+}
+/* line 79, ../sass/style.scss */
+.contact-info a {
+  color: #D5A725;
+}
+/* line 81, ../sass/style.scss */
+.contact-info a:hover {
+  color: navajowhite;
+}
+
+/* line 86, ../sass/style.scss */
+.info {
+  padding-bottom: 0;
+}
+/* line 89, ../sass/style.scss */
+.info a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* SOCIAL MEDIA LINKS */
+/* line 97, ../sass/style.scss */
+.smlinks {
+  padding-left: 0;
+  padding-bottom: 20px;
+  margin: 0;
+}
+/* line 101, ../sass/style.scss */
+.smlinks li {
+  display: inline;
+}
+/* line 104, ../sass/style.scss */
+.smlinks i {
+  color: white;
+  font-size: 20px;
+  margin: 0 20px;
+}
+/* line 109, ../sass/style.scss */
+.smlinks i:hover {
+  color: navajowhite;
+}
+/* line 113, ../sass/style.scss */
+.smlinks a {
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 5px;
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-width: 13%;
+  padding-height: 40px;
+}
+/* line 124, ../sass/style.scss */
+.smlinks a:hover {
+  border: 1px solid white;
+}
+/* line 127, ../sass/style.scss */
+.smlinks a.facebook {
+  background-color: #23476A;
+  padding-right: 1%;
+}
+/* line 131, ../sass/style.scss */
+.smlinks a.twitter {
+  background-color: #00ABF0;
+  padding-right: 1%;
+}
+/* line 135, ../sass/style.scss */
+.smlinks a.google {
+  background-color: #A92A24;
+  padding-right: 1%;
+}
+/* line 139, ../sass/style.scss */
+.smlinks a.linkedin {
+  background-color: black;
+}
+
+/*
+HOBBIES
+*/
+/* line 148, ../sass/style.scss */
+.hobbies {
+  list-style: none;
+  padding: 0;
+}
+/* line 152, ../sass/style.scss */
+.hobbies h2 {
+  font-size: 25px;
+  color: #cccccc;
+}
+/* line 157, ../sass/style.scss */
+.hobbies li {
+  list-style: none;
+}
+
+/* line 161, ../sass/style.scss */
+.background, .hobby, .video {
+  background: #336699;
+  padding: 15px 30px;
+  border-bottom: 2px solid #cccccc;
+}
+
+/*
+VIDEO
+*/
+/* line 170, ../sass/style.scss */
+video {
+  width: 96%;
+  margin-left: 18px;
+}
+
+/*
+EDUCATION
+*/
+/* line 179, ../sass/style.scss */
+table {
+  border: 0;
+  width: 100%;
+}
+
+/* line 183, ../sass/style.scss */
+.background label {
+  padding-right: 20px;
+}
+
+/* line 186, ../sass/style.scss */
+select {
+  width: 50%;
+}
+
+/* line 189, ../sass/style.scss */
+textarea {
+  font-size: 15px;
+  resize: none;
+  width: 100%;
+}
+
+/* line 194, ../sass/style.scss */
+.button {
+  width: 25%;
+  background: white;
+  height: auto;
+  display: block;
+  text-align: center;
+  font-style: bold;
+  margin-left: 35%;
+}
+
+/*
+QUOTE
+*/
+/* line 207, ../sass/style.scss */
+.quote {
+  background: url(http://digitalizemoments.files.wordpress.com/2012/01/3-11.jpg);
+  padding: 15px 30px;
+  border-bottom: 2px solid #cccccc;
+}
+
+/* line 212, ../sass/style.scss */
+blockquote {
+  font-size: 20px;
+  font-style: italic;
+  color: #cccccc;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/*
+FOOTER
+*/
+/* line 221, ../sass/style.scss */
+footer {
+  background: #036;
+  width: 100%;
+  clear: both;
+}
+
+/* line 226, ../sass/style.scss */
+footer p {
+  color: #cccccc;
+  padding: 15px;
+  text-align: right;
+}
